@@ -1,0 +1,515 @@
+# Copyright (C) 2021 wp-secured
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Secured WP 1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/secured-wp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-15T09:21:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: secured-wp\n"
+
+#. Plugin Name of the plugin
+msgid "Secured WP"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wp-secured.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides Security for WP sites. 2FA, login attempts, hardens WP login process"
+msgstr ""
+
+#. Author of the plugin
+msgid "wp-secured"
+msgstr ""
+
+#: classes/Controllers/Login_Check.php:78
+msgid "<strong>Error</strong>: Too soon."
+msgstr ""
+
+#: classes/Controllers/Login_Check.php:102
+msgid "<strong>Error</strong>: Too many attempts."
+msgstr ""
+
+#: classes/Controllers/Login_Check.php:174
+msgid "Invalid code provided"
+msgstr ""
+
+#: classes/Controllers/Modules/Login.php:396
+msgid "This feature is not enabled."
+msgstr ""
+
+#: classes/Controllers/Modules/Login.php:447
+msgid "Nothing to see here"
+msgstr ""
+
+#: classes/Controllers/Modules/Login.php:682
+msgid "Login"
+msgstr ""
+
+#: classes/Controllers/Modules/Login.php:699
+msgid "New login slug"
+msgstr ""
+
+#: classes/Controllers/Modules/Login.php:703
+msgid "Redirect original login"
+msgstr ""
+
+#: classes/Controllers/Modules/Login.php:759
+msgid "Hides the standard wp-login.php with your personal slug of choice. Redirects the original login to slug of your choice"
+msgstr ""
+
+#: classes/Controllers/Modules/Login_Attempts.php:235
+msgid "Login attempts"
+msgstr ""
+
+#: classes/Controllers/Modules/Login_Attempts.php:252
+#: classes/Views/SettingsTabs.php:119
+msgid "Login Attempts"
+msgstr ""
+
+#: classes/Controllers/Modules/Login_Attempts.php:256
+#: classes/Controllers/Modules/Remember_Me.php:351
+#: classes/Views/SettingsTabs.php:127
+msgid "Lock time"
+msgstr ""
+
+#: classes/Controllers/Modules/Login_Attempts.php:257
+msgid " mins."
+msgstr ""
+
+#: classes/Controllers/Modules/Login_Attempts.php:294
+msgid "Counts incorect login attempts and locks the user - use standard user menu to check locked users."
+msgstr ""
+
+#: classes/Controllers/Modules/Remember_Me.php:334
+msgid "Remember Devices"
+msgstr ""
+
+#: classes/Controllers/Modules/Remember_Me.php:352
+msgid " days."
+msgstr ""
+
+#: classes/Controllers/Modules/Remember_Me.php:405
+msgid "When enabled, if user checks remember me on login, the device will be stored and the user wont be asked for credentials for the given amount of time."
+msgstr ""
+
+#: classes/Controllers/Modules/Two_FA_Settings.php:189
+msgid "2FA settings"
+msgstr ""
+
+#: classes/Controllers/Modules/Two_FA_Settings.php:206
+msgid "TOTP enabled"
+msgstr ""
+
+#: classes/Controllers/Modules/Two_FA_Settings.php:207
+#: classes/Controllers/Modules/Two_FA_Settings.php:211
+#: classes/Helpers/Information/Module_Information.php:49
+msgid "true"
+msgstr ""
+
+#: classes/Controllers/Modules/Two_FA_Settings.php:207
+#: classes/Controllers/Modules/Two_FA_Settings.php:211
+#: classes/Helpers/Information/Module_Information.php:49
+msgid "false"
+msgstr ""
+
+#: classes/Controllers/Modules/Two_FA_Settings.php:210
+msgid "OOB enabled"
+msgstr ""
+
+#: classes/Controllers/Modules/Two_FA_Settings.php:266
+msgid "Enables 2FA. Next time, when user logins s/he will be asked to add the site to Authenticator application of their choice, and from now on they must provide code from that App in order to login."
+msgstr ""
+
+#: classes/Controllers/Modules/XML_RPC_Prevents.php:62
+msgid "XML-RPC settings"
+msgstr ""
+
+#: classes/Controllers/Modules/XML_RPC_Prevents.php:108
+msgid "Disables XML-RPC. By default WordPress has that enabled - this is potentially security risk - that will disable XML-RPC on your site completely"
+msgstr ""
+
+#: classes/Controllers/User.php:622
+msgid "2FA enabled: YES"
+msgstr ""
+
+#: classes/Controllers/User.php:623
+msgid "TOTP enabled: NO"
+msgstr ""
+
+#: classes/Controllers/User.php:627
+msgid "2FA enabled: EXCLUDED"
+msgstr ""
+
+#: classes/Controllers/User.php:631
+msgid "TOTP enabled: YES"
+msgstr ""
+
+#: classes/Helpers/Information/Module_Information.php:49
+msgid "Disabled: "
+msgstr ""
+
+#: classes/Helpers/Notify_Admin.php:39
+msgid "Maximum number of unsuccessful login attempts reached"
+msgstr ""
+
+#: classes/Helpers/Out_Of_Band_Email.php:93
+msgid "One time login link"
+msgstr ""
+
+#: classes/Helpers/Out_Of_Band_Email.php:128
+msgid "Out of bond email link"
+msgstr ""
+
+#: classes/Secured.php:70
+msgid "Settings"
+msgstr ""
+
+#. translators: %1$s: PHP version
+#: classes/Secured.php:93
+msgid "You need to update your PHP version to %1s."
+msgstr ""
+
+#: classes/Secured.php:98
+#: classes/Secured.php:119
+msgid "Actual version is:"
+msgstr ""
+
+#. translators: %1$s: WP version
+#: classes/Secured.php:114
+msgid "You need to update your WP version to %1s."
+msgstr ""
+
+#: classes/Secured.php:239
+msgid "You must be logged in to see this content"
+msgstr ""
+
+#: classes/Validators/Validator.php:64
+#: classes/Validators/Validator.php:94
+msgid "No rules are set - nothing to test against"
+msgstr ""
+
+#: classes/Validators/Validator.php:72
+msgid "Variable is not set"
+msgstr ""
+
+#: classes/Validators/Validator.php:126
+msgid "Variable is not valid e-mail"
+msgstr ""
+
+#: classes/Validators/Validator.php:191
+msgid "Variable is not integer"
+msgstr ""
+
+#: classes/Validators/Validator.php:195
+#: classes/Validators/Validator.php:211
+msgid "Variable is not positive integer!"
+msgstr ""
+
+#: classes/Validators/Validator.php:214
+msgid "Variable is not in given range"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:104
+msgid "Information"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:110
+msgid "Provides Security for WP sites"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:115
+msgid "Version"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:119
+msgid "Delete data on plugin uninstall"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:122
+msgid "That setting is global"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:126
+msgid "Modules Information"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:137
+#: classes/Views/AdminSettingsView.php:155
+msgid "Save Changes"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:163
+msgid "Restore Default Plugin Settings"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:177
+msgid "Are you sure you want to restore the defaults? All settings will be overridden"
+msgstr ""
+
+#: classes/Views/AdminSettingsView.php:182
+msgid "Are you sure you want to restore the defaults? All module settings will be overridden"
+msgstr ""
+
+#: classes/Views/LoginForms.php:122
+msgid "Scan above with your favorite Authenticator Application and enter the code below or add the following code:"
+msgstr ""
+
+#: classes/Views/LoginForms.php:125
+msgid "Open the Authenticator Application on your phone and enter the code for "
+msgstr ""
+
+#: classes/Views/LoginForms.php:129
+msgid "Authentication Code:"
+msgstr ""
+
+#: classes/Views/LoginForms.php:135
+#: classes/Views/LoginForms.php:209
+msgid "Log In"
+msgstr ""
+
+#: classes/Views/LoginForms.php:203
+msgid "Click the button to finish the login."
+msgstr ""
+
+#: classes/Views/LoginForms.php:236
+msgid "You have logged in successfully."
+msgstr ""
+
+#: classes/Views/LoginForms.php:286
+msgid "Send me out of bond email instead"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:52
+msgid "Login redirection Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:55
+msgid "Disable Login Redirection"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:56
+#: classes/Views/SettingsTabs.php:111
+#: classes/Views/SettingsTabs.php:173
+#: classes/Views/SettingsTabs.php:226
+#: classes/Views/SettingsTabs.php:281
+msgid "Description:"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:58
+#: classes/Views/SettingsTabs.php:114
+#: classes/Views/SettingsTabs.php:176
+#: classes/Views/SettingsTabs.php:229
+#: classes/Views/SettingsTabs.php:284
+msgid "These settings are blog related (multisite)"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:63
+msgid "New Login redirection slug"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:66
+msgid "New login redirection slug"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:71
+#: classes/Views/SettingsTabs.php:74
+msgid "Redirect original login to"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:79
+#: classes/Views/SettingsTabs.php:141
+#: classes/Views/SettingsTabs.php:195
+#: classes/Views/SettingsTabs.php:250
+#: classes/Views/SettingsTabs.php:289
+msgid "Default Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:83
+#: classes/Views/SettingsTabs.php:145
+#: classes/Views/SettingsTabs.php:199
+#: classes/Views/SettingsTabs.php:254
+#: classes/Views/SettingsTabs.php:293
+msgid "Restore Module Default Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:89
+#: classes/Views/SettingsTabs.php:151
+#: classes/Views/SettingsTabs.php:205
+msgid "This will restore module settings to defaults."
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:107
+msgid "Login Attempts Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:110
+msgid "Disable Login Attempts"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:136
+msgid "How many minutes to lock the user"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:169
+msgid "Remember Device Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:172
+msgid "Disable Remember Devices"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:181
+msgid "Remember Device Time"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:190
+msgid "How many days remember device"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:222
+msgid "2FA Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:225
+msgid "Disable 2FA"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:234
+msgid "TOTP "
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:242
+msgid "Out of bond e-mail "
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:260
+#: classes/Views/SettingsTabs.php:299
+msgid "This will restore plugin settings to defaults."
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:277
+msgid "XML-RPC Settings"
+msgstr ""
+
+#: classes/Views/SettingsTabs.php:280
+msgid "Enable XML-RPC"
+msgstr ""
+
+#: classes/Views/UserProfile.php:54
+msgid "Secured WP - Options"
+msgstr ""
+
+#: classes/Views/UserProfile.php:55
+msgid "Current devices with \"Remember Me\" option enabled"
+msgstr ""
+
+#: classes/Views/UserProfile.php:60
+#: classes/Views/UserProfile.php:122
+msgid "Device"
+msgstr ""
+
+#: classes/Views/UserProfile.php:63
+#: classes/Views/UserProfile.php:125
+msgid "Expires"
+msgstr ""
+
+#: classes/Views/UserProfile.php:66
+#: classes/Views/UserProfile.php:99
+#: classes/Views/UserProfile.php:128
+msgid "Remove"
+msgstr ""
+
+#: classes/Views/UserProfile.php:76
+msgid "No logged in devices found"
+msgstr ""
+
+#: classes/Views/UserProfile.php:90
+msgid "Expired"
+msgstr ""
+
+#: classes/Views/UserProfile.php:139
+msgid "Remove all logged in devices"
+msgstr ""
+
+#: classes/Views/UserProfile.php:174
+msgid "QR code for the TOTP 2FA login"
+msgstr ""
+
+#: classes/Views/UserProfile.php:187
+msgid "Or use the following key, by entering it directly in you preferable authentication application:"
+msgstr ""
+
+#: classes/Views/UserProfile.php:200
+msgid "Regenerate QR code"
+msgstr ""
+
+#: classes/Views/UsersList.php:177
+msgid "Locked status"
+msgstr ""
+
+#: classes/Views/UsersList.php:210
+msgid "Locked"
+msgstr ""
+
+#: classes/Views/UsersList.php:210
+msgid "Not Locked"
+msgstr ""
+
+#: classes/Views/UsersList.php:228
+msgid "Secured WP Status"
+msgstr ""
+
+#: classes/Views/UsersList.php:265
+#: classes/Views/UsersList.php:327
+msgid "Logged in"
+msgstr ""
+
+#: classes/Views/UsersList.php:284
+msgid "Logged"
+msgstr ""
+
+#: classes/Views/UsersList.php:284
+msgid "Not Logged"
+msgstr ""
+
+#: classes/Views/UsersList.php:347
+msgid "Lock Users"
+msgstr ""
+
+#: classes/Views/UsersList.php:348
+msgid "Unlock Users"
+msgstr ""
+
+#. translators: %s: Number of users
+#: classes/Views/UsersList.php:431
+msgid "Locked %s user."
+msgid_plural "Locked %s users."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Number of users
+#: classes/Views/UsersList.php:447
+msgid "Unlocked %s user."
+msgid_plural "Unlocked %s users."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/Views/UsersList.php:475
+#: classes/Views/UsersList.php:477
+msgid "Filter Role"
+msgstr ""
+
+#. translators: %s: Customer username
+#: templates/template-oob.php:14
+msgid "Hi %s,"
+msgstr ""
